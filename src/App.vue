@@ -8,9 +8,6 @@ export default{
     }
   },
   computed:{
-    cityName(){
-      return "<"+ this.city+">"
-    },
     showTemp(){
       return "Температура: "+ this.info.main.temp
     },
