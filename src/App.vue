@@ -70,7 +70,7 @@ body{
   width: 900px;
   height: 500px;
   border-radius: 50px;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.85);
   text-align: center;
   font-size: 30px;
   box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
