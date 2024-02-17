@@ -35,8 +35,8 @@ export default{
 
 <template>
     <div class="wrapper">
-      <a href="http://127.0.0.1:8000/employers/export">Получить Excel</a> 
-      <a href="http://127.0.0.1:8000/employers/export2">Получить Word</a>
+      <a style="color: green;" href="http://a0921768.xsph.ru/employers/export">Получить Excel</a> 
+      <a  style="color: blue;" href="http://a0921768.xsph.ru/employers/export2">Получить Word</a>
       <h1>Узнай Погоду в Любом Городе</h1>
         <label for="c">Узнать Погоду в {{ city }}</label> <br>
           <input type="text" placeholder="Angarsk" id="c" v-on:input="city = $event.target.value">
@@ -67,7 +67,7 @@ body{
   width: 900px;
   height: 500px;
   border-radius: 50px;
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.75);
   text-align: center;
   font-size: 30px;
   box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
@@ -86,6 +86,7 @@ body{
   color: #333;
   margin-top: 20px;
   margin-left: 15px;
+  text-decoration: none;
 }
 
 .wrapper label {
